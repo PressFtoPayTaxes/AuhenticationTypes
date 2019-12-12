@@ -1,0 +1,14 @@
+﻿@page
+@model IdentityAuthLesson.Pages.RegistrationModel
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<h2>Registration</h2>
+
+<form method="post">
+    <input asp-for="Email" type="email" placeholder="Email" />
+    <input asp-for="Password" type="password" placeholder="Password" />
+    <input type="submit" value="Зарегистрироваться" />
+</form>
+
